@@ -6,8 +6,7 @@ from discord.utils import get
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = 'Nzg0NTc5NTIzMTMxMjExNzg3.X8rWnw.bev5AUV6UJsbTvAv4p83ib8_0l0' #os.environ['DISCORD_TOKEN']
-#SERVER = 'Bot Test Server' #os.environ['DISCORD_SERVER']
+TOKEN = os.environ['DISCORD_TOKEN']
 
 intents = discord.Intents.default()
 intents.members = True
